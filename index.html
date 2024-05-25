@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="pass.css">
+    <title>Pass - Generator</title>
+</head>
+<body>
+    <div id="container">
+        <p class="legenda">Arancione: mediamente sicura<p>
+        <p class="legenda">Aqua: sicura</p>
+        <p class="legenda">Verde: ottima</p>
+        <div id="generatore">
+            <p>Genera Password</p>
+            <p id="passgen"></p>
+            <button class="layer1" onclick="genera8();"><i class="fa-solid fa-key"></i></button>
+            <button class="layer2" onclick="genera12();"><i class="fa-solid fa-key"></i></button>
+            <button class="layer3" onclick="genera16();"><i class="fa-solid fa-key"></i></button>
+            <p class="riga">8</p>
+            <p class="riga">12</p>
+            <p class="riga">16</p>
+        </div>
+    </div>
+
+    <script src="index.js"></script>
+    <script src="https://kit.fontawesome.com/f9eddf4988.js" crossorigin="anonymous"></script>
+</body>
+</html>
